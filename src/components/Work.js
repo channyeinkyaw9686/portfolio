@@ -1,6 +1,6 @@
 import React from "react"
 import Card from "./atoms/Card"
-import Fade from "react-reveal/Fade"
+import { Fade } from "react-awesome-reveal"
 
 import data from "../yourdata"
 
@@ -9,12 +9,12 @@ const Work = () => {
     <div className="section" id="work">
       <div className="container">
         <div className="work-wrapper">
-          <Fade bottom>
+          <Fade>
             <h1>Work</h1>
           </Fade>
 
           <div className="grid">
-            <Fade bottom cascade>
+            <Fade cascade>
               {data.projects.map((project, index) => (
                 <Card
                   key={index}
