@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "react-portfolio-template",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Portfolio Template For Awesome Peoples",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Chetan Verma <hello@chetanverma.com>",
   "dependencies": {
     "gatsby": "^4.9.3",
     "gatsby-plugin-gatsby-cloud": "^4.9.1",
@@ -11,18 +11,22 @@
     "gatsby-plugin-manifest": "^4.9.1",
     "gatsby-plugin-offline": "^5.9.1",
     "gatsby-plugin-react-helmet": "^5.9.0",
+    "gatsby-plugin-sass": "^5.10.0",
     "gatsby-plugin-sharp": "^4.9.1",
+    "gatsby-plugin-smoothscroll": "^1.2.0",
     "gatsby-source-filesystem": "^4.9.1",
     "gatsby-transformer-sharp": "^4.9.0",
     "gh-pages": "^3.2.3",
-    "node-sass": "^7.0.1",
     "prop-types": "^15.8.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "react-reveal": "^1.2.2",
+    "react-scroll": "^1.8.6"
   },
   "devDependencies": {
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "sass": "^1.49.9"
   },
   "keywords": [
     "gatsby"
@@ -31,7 +35,6 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "gatsby develop",
     "serve": "gatsby serve",
