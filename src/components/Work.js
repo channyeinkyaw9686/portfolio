@@ -14,7 +14,7 @@ const Work = () => {
           </Fade>
 
           <div className="grid">
-            <Fade cascade>
+            <Fade direction="left" cascade triggerOnce>
               {data.projects.map((project, index) => (
                 <Card
                   key={index}

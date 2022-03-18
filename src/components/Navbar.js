@@ -1,5 +1,6 @@
 import React from "react"
 import scrollTo from "gatsby-plugin-smoothscroll"
+
 const Navbar = () => {
   return (
     <div className="section">
@@ -11,12 +12,12 @@ const Navbar = () => {
             className="name"
             tabIndex={0}
           >
-            Portfolio.
+            Chan Nyein Kyaw
           </div>
           <div className="links-wrapper">
-            <button onClick={() => scrollTo("#work")}>Work</button>
-            <button onClick={() => scrollTo("#about")}>About</button>
-            <button onClick={() => scrollTo("#contact")}>Contact</button>
+            <button onClick={() => scrollTo("#work")}>01 Work</button>
+            <button onClick={() => scrollTo("#about")}>02 About</button>
+            <button onClick={() => scrollTo("#contact")}>03 Contact</button>
           </div>
         </div>
       </div>

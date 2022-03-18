@@ -8,7 +8,7 @@ const About = () => {
       <div className="container">
         <div className="about-section">
           <div className="content">
-            <Fade cascade>
+            <Fade direction="up" cascade>
               <h1>About Me</h1>
             </Fade>
             <p>
